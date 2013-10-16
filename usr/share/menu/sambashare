@@ -1,0 +1,5 @@
+?package(sambashare):needs="X11"\
+   section="Applications/System/Administration"\
+   title="Samba share"\
+   icon="folder-remote"\
+   command="sambashare"

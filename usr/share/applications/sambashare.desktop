@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Samba share
+GenericName=Samba share
+Comment=Create samba shares
+Exec=sambashare
+Icon=folder-remote
+Terminal=False
+Type=Application
+Categories=System;
