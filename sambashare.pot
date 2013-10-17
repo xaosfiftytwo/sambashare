@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-17 20:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: usr/lib/sambashare/sambashare.py:59
+msgid "Samba share"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:60
+msgid "Create samba share"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:62
+msgid "Name"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:63
+msgid "Path"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:64
+msgid "Comment"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:65
+msgid "Read only"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:117
+msgid "Select directory to share"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:126
+msgid "Remove share"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:127
+#, python-format
+msgid ""
+"Are you sure you want to remove the following share:\n"
+"\n"
+"'%(share)s'"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:136
+msgid "Create share"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:157
+#, python-format
+msgid "Could not remove share: '%(share)s'"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:159
+#, python-format
+msgid "Could not create share: '%(share)s'"
+msgstr ""
+
+#: usr/lib/sambashare/sambashare.py:161
+#, python-format
+msgid ""
+"Share successfully %(action)s:\n"
+"\n"
+"'%(share)s' on %(path)s"
+msgstr ""

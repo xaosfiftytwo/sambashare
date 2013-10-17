@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
 
 import os
-from shutil import copy
+import re
 from execcmd import ExecCmd
 from os.path import exists, expanduser
 
@@ -19,11 +19,17 @@ class UserShare(object):
             if inclInfoAsDict:
                 shares = {}
                 for share in lst:
-                    shares[share] = self.getShareInfo(share)
+                    if not 'info_fn:' in share:
+                        shares[share] = self.getShareInfo(share)
+                    else:
+                        self.removeCorruptShare(share)
             else:
                 shares = []
                 for share in lst:
-                    shares.append([share, self.getShareInfo(share)])
+                    if not 'info_fn:' in share:
+                        shares.append([share, self.getShareInfo(share)])
+                    else:
+                        self.removeCorruptShare(share)
         else:
             shares = lst
         return shares
@@ -33,6 +39,17 @@ class UserShare(object):
         if share is not None and share.strip() != "":
             ret = self.ec.run("net usershare info -l '%s'" % share)
         return ret
+
+    def removeCorruptShare(self, info_fn_line):
+        matchObj = re.search("(/.*)\s+is\s+not", info_fn_line)
+        if matchObj:
+            path = matchObj.group(1)
+            if exists(path):
+                try:
+                    os.remove(path)
+                except:
+                    # Best effort
+                    pass
 
     def doesShareExist(self, share):
         info = self.getShareInfo(share)

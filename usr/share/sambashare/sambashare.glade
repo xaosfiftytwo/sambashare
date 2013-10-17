@@ -9,10 +9,8 @@
   <object class="GtkWindow" id="sambashareWindow">
     <property name="can_focus">False</property>
     <property name="title" translatable="yes">Samba share</property>
-    <property name="resizable">False</property>
     <property name="window_position">mouse</property>
     <property name="icon_name">folder-remote</property>
-    <property name="has_resize_grip">False</property>
     <signal name="destroy" handler="on_sambashareWindow_destroy" swapped="no"/>
     <child>
       <object class="GtkBox" id="box1">
@@ -86,7 +84,7 @@
                 </child>
               </object>
               <packing>
-                <property name="expand">False</property>
+                <property name="expand">True</property>
                 <property name="fill">True</property>
                 <property name="position">0</property>
               </packing>
@@ -116,11 +114,9 @@
                     <child>
                       <object class="GtkButton" id="btnAdd">
                         <property name="label">gtk-add</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="use_stock">True</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="on_btnAdd_clicked" swapped="no"/>
@@ -147,11 +143,9 @@
                     <child>
                       <object class="GtkButton" id="btnRemove">
                         <property name="label">gtk-remove</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
-                        <property name="use_action_appearance">False</property>
                         <property name="use_stock">True</property>
                         <property name="always_show_image">True</property>
                         <signal name="clicked" handler="on_btnRemove_clicked" swapped="no"/>
@@ -406,11 +400,9 @@
             <child>
               <object class="GtkButton" id="btnOk">
                 <property name="label">gtk-ok</property>
-                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <property name="use_action_appearance">False</property>
                 <property name="use_stock">True</property>
                 <property name="always_show_image">True</property>
                 <signal name="clicked" handler="on_btnOk_clicked" swapped="no"/>
@@ -437,11 +429,9 @@
             <child>
               <object class="GtkButton" id="btnCancel">
                 <property name="label" translatable="yes">Cancel</property>
-                <property name="use_action_appearance">False</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <property name="use_action_appearance">False</property>
                 <property name="image">imgCancel</property>
                 <property name="always_show_image">True</property>
                 <signal name="clicked" handler="on_btnCancel_clicked" swapped="no"/>
@@ -492,11 +482,9 @@
         </child>
         <child>
           <object class="GtkCheckButton" id="chkReadOnly">
-            <property name="use_action_appearance">False</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">False</property>
-            <property name="use_action_appearance">False</property>
             <property name="xalign">0</property>
             <property name="active">True</property>
             <property name="draw_indicator">True</property>
@@ -526,11 +514,9 @@
         </child>
         <child>
           <object class="GtkCheckButton" id="chkPublic">
-            <property name="use_action_appearance">False</property>
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="receives_default">False</property>
-            <property name="use_action_appearance">False</property>
             <property name="xalign">0</property>
             <property name="active">True</property>
             <property name="draw_indicator">True</property>
@@ -562,12 +548,10 @@
             <child>
               <object class="GtkButton" id="btnBrowse">
                 <property name="label" translatable="yes">...</property>
-                <property name="use_action_appearance">False</property>
                 <property name="width_request">30</property>
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <property name="use_action_appearance">False</property>
                 <signal name="clicked" handler="on_btnBrowse_clicked" swapped="no"/>
               </object>
               <packing>
