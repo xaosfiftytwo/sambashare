@@ -15,7 +15,7 @@ import gettext
 from os.path import join, abspath, dirname, basename
 from execcmd import ExecCmd
 from treeview import TreeViewHandler
-from dialogs import MessageDialogSave, QuestionDialog, SelectDirectoryDialog
+from dialogs import MessageDialogSafe, QuestionDialog, SelectDirectoryDialog
 from usershare import UserShare
 
 # i18n: http://docs.python.org/2/library/gettext.html
@@ -150,7 +150,7 @@ class SambaShare(object):
         for line in returnList:
             msg += "%s\n" % line
         if msg != "":
-            MessageDialogSave(title, msg, Gtk.MessageType.ERROR, parent).show()
+            MessageDialogSafe(title, msg, Gtk.MessageType.ERROR, parent).show()
         else:
             shareExists = self.us.doesShareExist(self.shareName)
             if action == "removed" and shareExists:
@@ -160,7 +160,7 @@ class SambaShare(object):
             else:
                 msg = _("Share successfully %(action)s:\n\n'%(share)s' on %(path)s") % { "action": action, "share": self.shareName, "path": self.sharePath }
                 closeWin = True
-            MessageDialogSave(title, msg, Gtk.MessageType.INFO, parent).show()
+            MessageDialogSafe(title, msg, Gtk.MessageType.INFO, parent).show()
         return closeWin
 
     def refreshShares(self):

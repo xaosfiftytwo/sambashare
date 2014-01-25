@@ -2,8 +2,14 @@
 
 import os
 import re
+import gettext
 from execcmd import ExecCmd
 from os.path import exists, expanduser
+
+# i18n: http://docs.python.org/2/library/gettext.html
+gettext.install("sambashare", "/usr/share/locale")
+#t = gettext.translation("sambashare", "/usr/share/locale")
+#_ = t.lgettext
 
 
 class UserShare(object):
@@ -76,9 +82,9 @@ class UserShare(object):
     def createShare(self, path, name, comment=None, public=True, readonly=True):
         ret = []
         if self.doesShareExist(name):
-            ret.append("Cannot create share.\nShare already exists: %(share)s" % { "share": name })
+            ret.append(_("Cannot create share.\nShare already exists: %(share)s") % { "share": name })
         elif not exists(path):
-            ret.append("Cannot create share.\nPath does not exist: %(path)s" % { "path": path })
+            ret.append(_("Cannot create share.\nPath does not exist: %(path)s") % { "path": path })
         else:
             if comment is None:
                 comment = ""
@@ -90,7 +96,7 @@ class UserShare(object):
                 read_only = "F"
 
             if self.needRoot(path):
-                ret.append("You do not have sufficient permission to create a share on:\n%(path)s" % { "path": path })
+                ret.append(_("You do not have sufficient permission to create a share on:\n%(path)s") % { "path": path })
             else:
                 cmd = "net usershare add '%(name)s' '%(path)s' '%(comment)s' Everyone:%(read_only)s guest_ok=%(guest_ok)s" % { "name": name, "path": path, "comment": comment, "read_only": read_only, "guest_ok": guest_ok }
                 print(cmd)
@@ -108,7 +114,7 @@ class UserShare(object):
         if self.doesShareExist(name):
             path = self.getPathFromName(name)
             if self.needRoot(path):
-                ret.append("You do not have sufficient permission on path: %(path)s" % { "path": path })
+                ret.append(_("You do not have sufficient permission on path: %(path)s") % { "path": path })
             else:
                 cmd = "net usershare delete '%(name)s'" % { "name": name }
                 print(cmd)
