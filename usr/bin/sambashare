@@ -4,6 +4,10 @@ if [ -w $PWD ]; then
   echo "Current directory is writable"
   /usr/bin/python3 /usr/lib/sambashare/sambashare.py $*
 else
-  echo "Current direcotry needs root privileges"
-  gksu /usr/bin/python3 /usr/lib/sambashare/sambashare.py $*
+  echo "Current directory needs root privileges"
+  LAUNCHER="gksudo"
+  if [ -e "/usr/bin/kdesudo" ]; then
+    LAUNCHER="kdesudo"
+  fi
+  $LAUNCHER /usr/bin/python3 /usr/lib/sambashare/sambashare.py $*
 fi

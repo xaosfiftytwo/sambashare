@@ -63,6 +63,7 @@ class SambaShare(object):
         self.lblPath.set_text(_("Path"))
         self.lblComment.set_text(_("Comment"))
         self.lblReadOnly.set_text(_("Read only"))
+        self.lblPublic.set_text(_("Public"))
 
         # Init
         self.ec = ExecCmd()
