@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Sambashare 0.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-02 18:48+0100\n"
+"PO-Revision-Date: 2014-04-01 14:24+0100\n"
+"Last-Translator: \n"
+"Language-Team: SolydXK < admin@solydxk.com>\n"
+"Language: français\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/share/applications/sambashare.desktop.in.h:1
+msgid "Samba share"
+msgstr "Configuration de Samba"
+
+#: ../usr/lib/sambashare/sambashare.py:60
+msgid "Create samba share"
+msgstr "Partager un dossier"
+
+#: ../usr/lib/sambashare/sambashare.py:62
+msgid "Name"
+msgstr "Nom"
+
+#: ../usr/lib/sambashare/sambashare.py:63
+msgid "Path"
+msgstr "Répertoire"
+
+#: ../usr/lib/sambashare/sambashare.py:64
+msgid "Comment"
+msgstr "Description"
+
+#: ../usr/lib/sambashare/sambashare.py:65
+msgid "Read only"
+msgstr "Lecture seule"
+
+#: ../usr/lib/sambashare/sambashare.py:66
+msgid "Public"
+msgstr ""
+
+#: ../usr/lib/sambashare/sambashare.py:118
+msgid "Select directory to share"
+msgstr "Selectionner un dossier à partager"
+
+#: ../usr/lib/sambashare/sambashare.py:127
+msgid "Remove share"
+msgstr "Désactiver le partage"
+
+#: ../usr/lib/sambashare/sambashare.py:128
+#, python-format
+msgid ""
+"Are you sure you want to remove the following share:\n"
+"\n"
+"'%(share)s'"
+msgstr ""
+"Souhaitez-vous réellement désactiver le partage suivant:\n"
+"\n"
+"'%(share)s'"
+
+#: ../usr/lib/sambashare/sambashare.py:137
+msgid "Create share"
+msgstr "Partage activé"
+
+#: ../usr/lib/sambashare/sambashare.py:158
+#, python-format
+msgid "Could not remove share: '%(share)s'"
+msgstr "Impossible de désactiver le partage de: '%(share)s'"
+
+#: ../usr/lib/sambashare/sambashare.py:160
+#, python-format
+msgid "Could not create share: '%(share)s'"
+msgstr "Impossible d'activer le partage de: '%(share)s'"
+
+# It seems to have a problem: the translation doesn't work properly (mix french and english), but I'm not able to correct. %(actions)s seems to be the culprit.
+#: ../usr/lib/sambashare/sambashare.py:162
+#, python-format
+msgid ""
+"Share successfully %(action)s:\n"
+"\n"
+"'%(share)s' on %(path)s"
+msgstr ""
+"Partage fonctionnel %(action)s:\n"
+"\n"
+"'%(share)s' sur %(path)s"
+
+#: ../usr/lib/sambashare/usershare.py:85
+#, python-format
+msgid ""
+"Cannot create share.\n"
+"Share already exists: %(share)s"
+msgstr ""
+"Impossible de partager.\n"
+"Le partage %(share)s existe déjà."
+
+#: ../usr/lib/sambashare/usershare.py:87
+#, python-format
+msgid ""
+"Cannot create share.\n"
+"Path does not exist: %(path)s"
+msgstr ""
+"Impossible de partager.\n"
+"Le répertoire %(path)s n'existe pas."
+
+#: ../usr/lib/sambashare/usershare.py:99
+#, python-format
+msgid ""
+"You do not have sufficient permission to create a share on:\n"
+"%(path)s"
+msgstr ""
+"Droits d'accès insuffisants pour activer le partage de:\n"
+"%(path)s"
+
+#: ../usr/lib/sambashare/usershare.py:117
+#, python-format
+msgid "You do not have sufficient permission on path: %(path)s"
+msgstr "Droits d'accès insuffisants pour le répertoire: %(path)s"
+
+#: ../usr/share/applications/sambashare.desktop.in.h:2
+#, fuzzy
+msgid "Create samba shares"
+msgstr "Partager un dossier"

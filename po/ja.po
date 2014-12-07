@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: samba share\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-02 18:48+0100\n"
+"PO-Revision-Date: 2014-06-26 09:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: SolydXK <admin@solydxk.com>\n"
+"Language: Japanese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/share/applications/sambashare.desktop.in.h:1
+msgid "Samba share"
+msgstr "SAMBA 共有"
+
+#: ../usr/lib/sambashare/sambashare.py:60
+msgid "Create samba share"
+msgstr "SAMBA 共有 の作成"
+
+#: ../usr/lib/sambashare/sambashare.py:62
+msgid "Name"
+msgstr "名前"
+
+#: ../usr/lib/sambashare/sambashare.py:63
+msgid "Path"
+msgstr "パス"
+
+#: ../usr/lib/sambashare/sambashare.py:64
+msgid "Comment"
+msgstr "コメント"
+
+#: ../usr/lib/sambashare/sambashare.py:65
+msgid "Read only"
+msgstr "読込のみ"
+
+#: ../usr/lib/sambashare/sambashare.py:66
+msgid "Public"
+msgstr ""
+
+#: ../usr/lib/sambashare/sambashare.py:118
+msgid "Select directory to share"
+msgstr "共有フォルダの選択"
+
+#: ../usr/lib/sambashare/sambashare.py:127
+msgid "Remove share"
+msgstr "共有の削除"
+
+#: ../usr/lib/sambashare/sambashare.py:128
+#, python-format
+msgid ""
+"Are you sure you want to remove the following share:\n"
+"\n"
+"'%(share)s'"
+msgstr ""
+"共有を削除してよろしいですか？\n"
+"\n"
+"'%(share)s'"
+
+#: ../usr/lib/sambashare/sambashare.py:137
+msgid "Create share"
+msgstr "共有の作成"
+
+#: ../usr/lib/sambashare/sambashare.py:158
+#, python-format
+msgid "Could not remove share: '%(share)s'"
+msgstr "共有を削除できませんでした: '%(share)s'"
+
+#: ../usr/lib/sambashare/sambashare.py:160
+#, python-format
+msgid "Could not create share: '%(share)s'"
+msgstr "共有を作成できませんでした: '%(share)s'"
+
+#: ../usr/lib/sambashare/sambashare.py:162
+#, python-format
+msgid ""
+"Share successfully %(action)s:\n"
+"\n"
+"'%(share)s' on %(path)s"
+msgstr ""
+"共有 %(action)s が完了しました:\n"
+"\n"
+"'%(share)s' → %(path)s"
+
+#: ../usr/lib/sambashare/usershare.py:85
+#, python-format
+msgid ""
+"Cannot create share.\n"
+"Share already exists: %(share)s"
+msgstr ""
+"共有が作成できませんでした\n"
+"共有はすでに存在します: %(share)s"
+
+#: ../usr/lib/sambashare/usershare.py:87
+#, python-format
+msgid ""
+"Cannot create share.\n"
+"Path does not exist: %(path)s"
+msgstr ""
+"共有が作成できませんでした\n"
+"パスはすでに存在します: %(path)s"
+
+#: ../usr/lib/sambashare/usershare.py:99
+#, python-format
+msgid ""
+"You do not have sufficient permission to create a share on:\n"
+"%(path)s"
+msgstr ""
+"共有を作成する権限がありません:\n"
+"%(path)s"
+
+#: ../usr/lib/sambashare/usershare.py:117
+#, python-format
+msgid "You do not have sufficient permission on path: %(path)s"
+msgstr "パスの権限がありません: %(path)s"
+
+#: ../usr/share/applications/sambashare.desktop.in.h:2
+#, fuzzy
+msgid "Create samba shares"
+msgstr "SAMBA 共有 の作成"

@@ -1,23 +1,41 @@
+sambashare (0.6.5) debian; urgency=low
+
+  * Improved translation handling
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Sun, 02 Nov 2014 11:00:00 +0200
+
+sambashare (0.6.4) debian; urgency=low
+
+  * Changed icon for Evolvere theme
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Fri, 12 Sep 2014 14:00:00 +0100
+
+sambashare (0.6.3) debian; urgency=low
+
+  * Moved locale to solydxk-locale
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Thu, 26 May 2014 08:00:00 +0100
+
 sambashare (0.6.2) debian; urgency=low
 
   * Resolved missing translatable lables
 
- -- Schoelje <schoelje@solydxk.com>  Tue, 22 Apr 2014 12:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 22 Apr 2014 12:00:00 +0100
 
 sambashare (0.6.1) debian; urgency=low
 
   * Added French, and Dutch translations
 
- -- Schoelje <schoelje@solydxk.com>  Wed, 02 Apr 2014 19:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 02 Apr 2014 19:00:00 +0100
 
 sambashare (0.6.0) debian; urgency=low
 
   * Added German, Greek, and Turkish translations
 
- -- Schoelje <schoelje@solydxk.com>  Mon, 30 Dec 2013 13:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 30 Dec 2013 13:00:00 +0100
 
 sambashare (0.5.8) debian; urgency=low
 
   * Initial version
 
- -- Schoelje <schoelje@solydxk.com>  Tue, 10 Sep 2013 09:00:00 +0100
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 10 Sep 2013 09:00:00 +0100

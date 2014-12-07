@@ -1,15 +1,22 @@
 Source: sambashare
-Section: misc
+Section: admin
 Priority: optional
-Maintainer: Schoelje <schoelje@solydxk.com>
-Build-Depends: debhelper (>= 5)
-Standards-Version: 3.7.2
+Maintainer: Arjen Balfoort <arjenbalfoort@solydxk.com>
+Build-Depends: debhelper (>= 9)
+  , python
+  , intltool
+X-Python-Version: >= 3.0
+Standards-Version: 3.9.5
+Vcs-Git: git://github.com/SolydXK/sambashare.git
+Vcs-Browser: https://github.com/SolydXK/sambashare
 
 Package: sambashare
 Architecture: all
-Maintainer: Schoelje <schoelje@solydxk.com>
-Installed-Size: 265
-Depends: python3, python3-gi, gir1.2-gtk-3.0, samba
-Section: misc
-Priority: optional
+Depends: ${misc:Depends}, ${python:Depends}
+  , python3
+  , python3-gi
+  , gir1.2-gtk-3.0
+  , samba
+Conflicts: solydxk-locale
+Replaces: solydxk-locale
 Description: Simple samba share manager
