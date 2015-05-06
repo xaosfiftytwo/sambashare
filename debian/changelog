@@ -1,3 +1,10 @@
+sambashare (0.6.8) debian; urgency=low
+
+  * Added X-XFCE-SettingsDialog;X-XFCE-SystemSettings; to launcher
+  * French translation
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Wed, 06 May 2015 15:00:00 +0100
+
 sambashare (0.6.7) debian; urgency=low
 
   * Lowered gtk+ version for Wheezy

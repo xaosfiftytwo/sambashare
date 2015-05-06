@@ -5,27 +5,27 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Sambashare 0.6.0\n"
+"Project-Id-Version: Sambashare 0.6.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-02 18:48+0100\n"
-"PO-Revision-Date: 2014-04-01 14:24+0100\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2015-04-23 11:09+0100\n"
+"Last-Translator: Jocelyn <anechampenois@solydxk.com>\n"
 "Language-Team: SolydXK < admin@solydxk.com>\n"
-"Language: français\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.10\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../usr/lib/sambashare/sambashare.py:59
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
-msgstr "Configuration de Samba"
+msgstr "Samba share"
 
 #: ../usr/lib/sambashare/sambashare.py:60
 msgid "Create samba share"
-msgstr "Partager un dossier"
+msgstr "Partager un dossier avec Samba"
 
 #: ../usr/lib/sambashare/sambashare.py:62
 msgid "Name"
@@ -45,11 +45,11 @@ msgstr "Lecture seule"
 
 #: ../usr/lib/sambashare/sambashare.py:66
 msgid "Public"
-msgstr ""
+msgstr "Public"
 
 #: ../usr/lib/sambashare/sambashare.py:118
 msgid "Select directory to share"
-msgstr "Selectionner un dossier à partager"
+msgstr "Sélectionner un dossier à partager"
 
 #: ../usr/lib/sambashare/sambashare.py:127
 msgid "Remove share"
@@ -125,6 +125,5 @@ msgid "You do not have sufficient permission on path: %(path)s"
 msgstr "Droits d'accès insuffisants pour le répertoire: %(path)s"
 
 #: ../usr/share/applications/sambashare.desktop.in.h:2
-#, fuzzy
 msgid "Create samba shares"
-msgstr "Partager un dossier"
+msgstr "Partager un dossier avec Samba"
