@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sambashare 0.6.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-11-02 18:48+0100\n"
+"POT-Creation-Date: 2015-05-08 19:28+0200\n"
 "PO-Revision-Date: 2014-04-22 14:08+0100\n"
 "Last-Translator: Schoelje <schoelje@solydxk.com>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -19,6 +19,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr "Samba share"
@@ -123,6 +124,7 @@ msgstr ""
 msgid "You do not have sufficient permission on path: %(path)s"
 msgstr "U heeft onvoldoende rechten op pad: %(path)s"
 
+#: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2
 msgid "Create samba shares"
 msgstr "Maak samba shares"
