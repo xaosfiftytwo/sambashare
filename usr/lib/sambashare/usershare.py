@@ -2,14 +2,13 @@
 
 import os
 import re
-import gettext
 from execcmd import ExecCmd
 from os.path import exists, expanduser
 
-# i18n: http://docs.python.org/2/library/gettext.html
-gettext.install("sambashare", "/usr/share/locale")
-#t = gettext.translation("sambashare", "/usr/share/locale")
-#_ = t.lgettext
+# i18n: http://docs.python.org/3/library/gettext.html
+import gettext
+from gettext import gettext as _
+gettext.textdomain('sambashare')
 
 
 class UserShare(object):

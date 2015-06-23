@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sambashare 0.6.4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-08 19:28+0200\n"
+"POT-Creation-Date: 2015-06-22 13:35+0200\n"
 "PO-Revision-Date: 2014-10-22 10:42+0100\n"
 "Last-Translator: Juan Sánchez <jsrmadrid@gmail.com>\n"
 "Language-Team: SolydXK <admin@solydxk.com>\n"
@@ -18,45 +18,45 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/lib/sambashare/sambashare.py:58
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr "Compartición samba"
 
-#: ../usr/lib/sambashare/sambashare.py:60
+#: ../usr/lib/sambashare/sambashare.py:59
 msgid "Create samba share"
 msgstr "Crear compartición samba"
 
-#: ../usr/lib/sambashare/sambashare.py:62
+#: ../usr/lib/sambashare/sambashare.py:61
 msgid "Name"
 msgstr "Nombre"
 
-#: ../usr/lib/sambashare/sambashare.py:63
+#: ../usr/lib/sambashare/sambashare.py:62
 msgid "Path"
 msgstr "Ruta"
 
-#: ../usr/lib/sambashare/sambashare.py:64
+#: ../usr/lib/sambashare/sambashare.py:63
 msgid "Comment"
 msgstr "Comentario"
 
-#: ../usr/lib/sambashare/sambashare.py:65
+#: ../usr/lib/sambashare/sambashare.py:64
 msgid "Read only"
 msgstr "Sólo lectura"
 
-#: ../usr/lib/sambashare/sambashare.py:66
+#: ../usr/lib/sambashare/sambashare.py:65
 msgid "Public"
 msgstr "Público"
 
-#: ../usr/lib/sambashare/sambashare.py:118
+#: ../usr/lib/sambashare/sambashare.py:117
 msgid "Select directory to share"
 msgstr "Seleccione el directorio a compartir"
 
-#: ../usr/lib/sambashare/sambashare.py:127
+#: ../usr/lib/sambashare/sambashare.py:126
 msgid "Remove share"
 msgstr "Eliminar compartición"
 
-#: ../usr/lib/sambashare/sambashare.py:128
+#: ../usr/lib/sambashare/sambashare.py:127
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
@@ -67,21 +67,21 @@ msgstr ""
 "\n"
 "'%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:137
+#: ../usr/lib/sambashare/sambashare.py:136
 msgid "Create share"
 msgstr "Crear compartición"
 
-#: ../usr/lib/sambashare/sambashare.py:158
+#: ../usr/lib/sambashare/sambashare.py:157
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr "Imposible eliminar la compartición: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:160
+#: ../usr/lib/sambashare/sambashare.py:159
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr "Imposible crear compartición: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:162
+#: ../usr/lib/sambashare/sambashare.py:161
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"
@@ -92,7 +92,7 @@ msgstr ""
 "\n"
 "'%(share)s' en %(path)s"
 
-#: ../usr/lib/sambashare/usershare.py:85
+#: ../usr/lib/sambashare/usershare.py:84
 #, python-format
 msgid ""
 "Cannot create share.\n"
@@ -101,7 +101,7 @@ msgstr ""
 "Imposible crear compartición.\n"
 "La compartición ya existe: %(share)s"
 
-#: ../usr/lib/sambashare/usershare.py:87
+#: ../usr/lib/sambashare/usershare.py:86
 #, python-format
 msgid ""
 "Cannot create share.\n"
@@ -110,7 +110,7 @@ msgstr ""
 "Imposible crear compartición.\n"
 "La ruta no existe: %(path)s"
 
-#: ../usr/lib/sambashare/usershare.py:99
+#: ../usr/lib/sambashare/usershare.py:98
 #, python-format
 msgid ""
 "You do not have sufficient permission to create a share on:\n"
@@ -119,7 +119,7 @@ msgstr ""
 "No disponde de permisos suficientes para crear una compartición en:\n"
 "%(path)s"
 
-#: ../usr/lib/sambashare/usershare.py:117
+#: ../usr/lib/sambashare/usershare.py:116
 #, python-format
 msgid "You do not have sufficient permission on path: %(path)s"
 msgstr "No dispone de permisos suficientes en la ruta: %(path)s"

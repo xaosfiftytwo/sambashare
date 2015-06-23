@@ -10,7 +10,6 @@
 from gi.repository import Gtk
 import sys
 import os
-import gettext
 # abspath, dirname, join, expanduser, exists
 from os.path import join, abspath, dirname, basename
 from execcmd import ExecCmd
@@ -18,10 +17,10 @@ from treeview import TreeViewHandler
 from dialogs import MessageDialogSafe, QuestionDialog, SelectDirectoryDialog
 from usershare import UserShare
 
-# i18n: http://docs.python.org/2/library/gettext.html
-gettext.install("sambashare", "/usr/share/locale")
-#t = gettext.translation("sambashare", "/usr/share/locale")
-#_ = t.lgettext
+# i18n: http://docs.python.org/3/library/gettext.html
+import gettext
+from gettext import gettext as _
+gettext.textdomain('solydxk-welcome')
 
 
 #class for the main window
