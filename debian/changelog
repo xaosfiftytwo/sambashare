@@ -1,3 +1,15 @@
+sambashare (0.7.2) debian; urgency=low
+
+  * Updated translations
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 03 Nov 2015 17:00:00 +0100
+
+sambashare (0.7.1) debian; urgency=low
+
+  * New translation: it
+
+ -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Mon, 19 Oct 2015 07:00:00 +0100
+
 sambashare (0.7.0) debian; urgency=low
 
   * Improved localization handling

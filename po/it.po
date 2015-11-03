@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Davide Favaro <belzebu87@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
@@ -10,51 +11,51 @@ msgstr ""
 "POT-Creation-Date: 2015-11-03 16:50+0100\n"
 "PO-Revision-Date: 2015-10-22 05:34+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/solydxk/sambashare/"
-"language/ja/)\n"
-"Language: ja\n"
+"Language-Team: Italian (http://www.transifex.com/solydxk/sambashare/language/"
+"it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../usr/lib/sambashare/sambashare.py:58
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
-msgstr "SAMBA 共有"
+msgstr "Condivisioni Samba"
 
 #: ../usr/lib/sambashare/sambashare.py:59
 msgid "Create samba share"
-msgstr "SAMBA 共有 の作成"
+msgstr "Crea una condivisione Samba"
 
 #: ../usr/lib/sambashare/sambashare.py:61
 msgid "Name"
-msgstr "名前"
+msgstr "Nome"
 
 #: ../usr/lib/sambashare/sambashare.py:62
 msgid "Path"
-msgstr "パス"
+msgstr "Percorso"
 
 #: ../usr/lib/sambashare/sambashare.py:63
 msgid "Comment"
-msgstr "コメント"
+msgstr "Commento"
 
 #: ../usr/lib/sambashare/sambashare.py:64
 msgid "Read only"
-msgstr "読込のみ"
+msgstr "Sola lettura"
 
 #: ../usr/lib/sambashare/sambashare.py:65
 msgid "Public"
-msgstr ""
+msgstr "Pubblico"
 
 #: ../usr/lib/sambashare/sambashare.py:117
 msgid "Select directory to share"
-msgstr "共有フォルダの選択"
+msgstr "Seleziona una cartella da condividere"
 
 #: ../usr/lib/sambashare/sambashare.py:126
 msgid "Remove share"
-msgstr "共有の削除"
+msgstr "Rimuovi condivisione"
 
 #: ../usr/lib/sambashare/sambashare.py:127
 #, python-format
@@ -63,23 +64,23 @@ msgid ""
 "\n"
 "'%(share)s'"
 msgstr ""
-"共有を削除してよろしいですか？\n"
+"Sei sicuro di voler rimuovere la seguente condivisione:\n"
 "\n"
 "'%(share)s'"
 
 #: ../usr/lib/sambashare/sambashare.py:136
 msgid "Create share"
-msgstr "共有の作成"
+msgstr "Crea condivisione"
 
 #: ../usr/lib/sambashare/sambashare.py:157
 #, python-format
 msgid "Could not remove share: '%(share)s'"
-msgstr "共有を削除できませんでした: '%(share)s'"
+msgstr "Impossibile rimuovere: '%(share)s'"
 
 #: ../usr/lib/sambashare/sambashare.py:159
 #, python-format
 msgid "Could not create share: '%(share)s'"
-msgstr "共有を作成できませんでした: '%(share)s'"
+msgstr "Impossibile creare: '%(share)s'"
 
 #: ../usr/lib/sambashare/sambashare.py:161
 #, python-format
@@ -88,9 +89,9 @@ msgid ""
 "\n"
 "'%(share)s' on %(path)s"
 msgstr ""
-"共有 %(action)s が完了しました:\n"
+"Condivisione creata con successo: %(action)s:\n"
 "\n"
-"'%(share)s' → %(path)s"
+"'%(share)s' su %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:84
 #, python-format
@@ -98,8 +99,8 @@ msgid ""
 "Cannot create share.\n"
 "Share already exists: %(share)s"
 msgstr ""
-"共有が作成できませんでした\n"
-"共有はすでに存在します: %(share)s"
+"Impossibile creare la condivisione.\n"
+"La condivisione risulta già esistente: '%(share)s'"
 
 #: ../usr/lib/sambashare/usershare.py:86
 #, python-format
@@ -107,8 +108,8 @@ msgid ""
 "Cannot create share.\n"
 "Path does not exist: %(path)s"
 msgstr ""
-"共有が作成できませんでした\n"
-"パスはすでに存在します: %(path)s"
+"Impossibile creare la condivisione.\n"
+"Il percorso non esiste: %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:98
 #, python-format
@@ -116,15 +117,15 @@ msgid ""
 "You do not have sufficient permission to create a share on:\n"
 "%(path)s"
 msgstr ""
-"共有を作成する権限がありません:\n"
+"Non si possiedono diritti sufficienti per creare una condivisione di: "
 "%(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:116
 #, python-format
 msgid "You do not have sufficient permission on path: %(path)s"
-msgstr "パスの権限がありません: %(path)s"
+msgstr "Non si possiedono sufficienti diritti sul percorso: %(path)s"
 
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2
 msgid "Create samba shares"
-msgstr ""
+msgstr "Crea una condivisione Samba"

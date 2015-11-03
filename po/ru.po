@@ -1,22 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+# Translators:
+# Ilinsky Mikhail <mail@milinsky.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Sambashare\n"
+"Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-22 13:35+0200\n"
-"PO-Revision-Date: 2014-06-26 09:56+0100\n"
-"Last-Translator: Igor Cheprasov <i-cheprasov@live.ru>\n"
-"Language-Team: SolydXK <admin@solydxk.com>\n"
+"POT-Creation-Date: 2015-11-03 16:50+0100\n"
+"PO-Revision-Date: 2015-11-03 05:04+0000\n"
+"Last-Translator: Ilinsky Mikhail <mail@milinsky.com>\n"
+"Language-Team: Russian (http://www.transifex.com/solydxk/sambashare/language/"
+"ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
 
 #: ../usr/lib/sambashare/sambashare.py:58
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
@@ -46,7 +49,7 @@ msgstr "Только чтение"
 
 #: ../usr/lib/sambashare/sambashare.py:65
 msgid "Public"
-msgstr ""
+msgstr "Публичная"
 
 #: ../usr/lib/sambashare/sambashare.py:117
 msgid "Select directory to share"
@@ -126,6 +129,5 @@ msgstr "У Вас нет соответствующих прав в катало
 
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2
-#, fuzzy
 msgid "Create samba shares"
-msgstr "Создать общий ресурс Samba"
+msgstr "Создать общие папки Samba"
