@@ -16,6 +16,7 @@ class UserShare(object):
     def __init__(self):
         self.ec = ExecCmd()
         self.home = expanduser("~/")
+        self.systemNames = self.ec.run("cat /etc/passwd | cut -d':' -f 1")
 
     def getShares(self, inclInfo=False, inclInfoAsDict=False):
         shares = None
@@ -80,7 +81,9 @@ class UserShare(object):
 
     def createShare(self, path, name, comment=None, public=True, readonly=True):
         ret = []
-        if self.doesShareExist(name):
+        if name in self.systemNames:
+            ret.append(_("Cannot create share.\nShare name %(share)s is already a valid system user name.") % { "share": name })
+        elif self.doesShareExist(name):
             ret.append(_("Cannot create share.\nShare already exists: %(share)s") % { "share": name })
         elif not exists(path):
             ret.append(_("Cannot create share.\nPath does not exist: %(path)s") % { "path": path })
@@ -101,10 +104,13 @@ class UserShare(object):
                 print(cmd)
                 ret = self.ec.run(cmd, False)
 
-                if not readonly:
-                    cmd = "chmod 777 %(path)s" % { "path": path }
-                    print(cmd)
-                    ret = self.ec.run(cmd, False)
+                if self.doesShareExist(name):
+                    if not readonly:
+                        cmd = "chmod 777 %(path)s" % { "path": path }
+                        print(cmd)
+                        ret.extend(self.ec.run(cmd, False))
+                else:
+                    ret.insert(0, _("Failed to create new share: {} on {}.".format(name, path)))
 
         return ret
 
@@ -119,9 +125,12 @@ class UserShare(object):
                 print(cmd)
                 ret = self.ec.run(cmd, False)
 
-                if exists(path):
-                    cmd = "chmod 755 %(path)s" % { "path": path }
-                    print(cmd)
-                    ret = self.ec.run(cmd, False)
+                if self.doesShareExist(name):
+                    ret.insert(0, _("Failed to remove share: {} from {}.".format(name, path)))
+                else:
+                    if exists(path):
+                        cmd = "chmod 755 %(path)s" % { "path": path }
+                        print(cmd)
+                        ret.extend(self.ec.run(cmd, False))
 
         return ret

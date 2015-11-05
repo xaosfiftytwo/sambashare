@@ -118,8 +118,6 @@ class SambaShare(object):
         if directory is not None:
             self.sharePath = directory
             self.txtPath.set_text(self.sharePath)
-        self.shareName = basename(self.sharePath)
-        self.txtName.set_text(self.shareName)
 
     def on_btnRemove_clicked(self, widget):
         # TODO: remove selected share
@@ -143,6 +141,20 @@ class SambaShare(object):
         if closeWin:
             self.windowAdd.hide()
             self.refreshShares()
+
+    def on_txtPath_changed(self, widget):
+        self.sharePath = self.txtPath.get_text()
+        name = basename(self.sharePath)
+        if name == "":
+            name = basename(dirname(self.sharePath))
+        self.txtName.set_text(name)
+
+    def on_txtName_changed(self, widget):
+        name = self.txtName.get_text()
+        if name in self.us.systemNames:
+            name += "_"
+            self.txtName.set_text(name)
+        self.shareName = name
 
     def showUserFeedback(self, returnList, title, action, parent):
         msg = ""

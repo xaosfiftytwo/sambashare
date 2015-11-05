@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-03 16:50+0100\n"
+"POT-Creation-Date: 2015-11-04 20:27+0100\n"
 "PO-Revision-Date: 2015-10-22 05:34+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Greek (http://www.transifex.com/solydxk/sambashare/language/"
@@ -52,11 +52,11 @@ msgstr ""
 msgid "Select directory to share"
 msgstr "Επιλογή καταλόγου για διαμοιρασμό"
 
-#: ../usr/lib/sambashare/sambashare.py:126
+#: ../usr/lib/sambashare/sambashare.py:124
 msgid "Remove share"
 msgstr "Αφαίρεση κοινόχρηστού πόρου"
 
-#: ../usr/lib/sambashare/sambashare.py:127
+#: ../usr/lib/sambashare/sambashare.py:125
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
@@ -67,21 +67,21 @@ msgstr ""
 "\n"
 "'%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:136
+#: ../usr/lib/sambashare/sambashare.py:134
 msgid "Create share"
 msgstr "Δημιουργία κοινόχρηστου πόρου"
 
-#: ../usr/lib/sambashare/sambashare.py:157
+#: ../usr/lib/sambashare/sambashare.py:169
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr "Αδυναμία αφαίρεσης τού κοινόχρηστου πόρου: %(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:159
+#: ../usr/lib/sambashare/sambashare.py:171
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr "Αδυναμία δημιουργίας κοινόχρηστου πόρου: %(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:161
+#: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"
@@ -92,7 +92,16 @@ msgstr ""
 "\n"
 "'%(share)s' στο %(path)s"
 
-#: ../usr/lib/sambashare/usershare.py:84
+#: ../usr/lib/sambashare/usershare.py:85
+#, fuzzy, python-format
+msgid ""
+"Cannot create share.\n"
+"Share name %(share)s is already a valid system user name."
+msgstr ""
+"Αδυναμία δημιουργίας κοινόχρηστου πόρου\n"
+"Ο κοινόχρηστος πόρος υπάρχει ήδη: %(share)s"
+
+#: ../usr/lib/sambashare/usershare.py:87
 #, python-format
 msgid ""
 "Cannot create share.\n"
@@ -101,7 +110,7 @@ msgstr ""
 "Αδυναμία δημιουργίας κοινόχρηστου πόρου\n"
 "Ο κοινόχρηστος πόρος υπάρχει ήδη: %(share)s"
 
-#: ../usr/lib/sambashare/usershare.py:86
+#: ../usr/lib/sambashare/usershare.py:89
 #, python-format
 msgid ""
 "Cannot create share.\n"
@@ -110,7 +119,7 @@ msgstr ""
 "Αδυναμία δημιουργίας κοινόχρηστου πόρου.\n"
 "Η διαδρομή καταλόγων δεν υπάρχει: %(path)s"
 
-#: ../usr/lib/sambashare/usershare.py:98
+#: ../usr/lib/sambashare/usershare.py:101
 #, python-format
 msgid ""
 "You do not have sufficient permission to create a share on:\n"
@@ -119,10 +128,18 @@ msgstr ""
 "Δεν διαθέτετε ικανά δικαιώματα για την δημιουργία κοινόχρηστου πόρου στο:\n"
 "%(path)s"
 
-#: ../usr/lib/sambashare/usershare.py:116
+#: ../usr/lib/sambashare/usershare.py:113
+msgid "Failed to create new share: {} on {}."
+msgstr ""
+
+#: ../usr/lib/sambashare/usershare.py:122
 #, python-format
 msgid "You do not have sufficient permission on path: %(path)s"
 msgstr "Δεν διαθέτετε ικανά δικαιώματα για την διαδρομή καταλόγων: %(path)s"
+
+#: ../usr/lib/sambashare/usershare.py:129
+msgid "Failed to remove share: {} from {}."
+msgstr ""
 
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2

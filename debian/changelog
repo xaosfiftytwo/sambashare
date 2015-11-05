@@ -1,6 +1,7 @@
-sambashare (0.7.2) debian; urgency=low
+sambashare (0.7.3) debian; urgency=low
 
   * Updated translations
+  * Prevent system names for share names
 
  -- Arjen Balfoort <arjenbalfoort@solydxk.com>  Tue, 03 Nov 2015 17:00:00 +0100
 
