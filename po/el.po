@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-04 20:27+0100\n"
+"POT-Creation-Date: 2015-12-02 12:46+0100\n"
 "PO-Revision-Date: 2015-10-22 05:34+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Greek (http://www.transifex.com/solydxk/sambashare/language/"
@@ -18,45 +18,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/sambashare/sambashare.py:58
+#: ../usr/lib/sambashare/sambashare.py:62
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr "Δικτυακός κοινόχρηστος πόρος Samba"
 
-#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/lib/sambashare/sambashare.py:63
 msgid "Create samba share"
 msgstr "Δημιουργία κοινόχρηστου πόρου"
 
-#: ../usr/lib/sambashare/sambashare.py:61
+#: ../usr/lib/sambashare/sambashare.py:65
 msgid "Name"
 msgstr "Όνομα"
 
-#: ../usr/lib/sambashare/sambashare.py:62
+#: ../usr/lib/sambashare/sambashare.py:66
 msgid "Path"
 msgstr "Διαδρομή"
 
-#: ../usr/lib/sambashare/sambashare.py:63
+#: ../usr/lib/sambashare/sambashare.py:67
 msgid "Comment"
 msgstr "Σχόλιο"
 
-#: ../usr/lib/sambashare/sambashare.py:64
+#: ../usr/lib/sambashare/sambashare.py:68
 msgid "Read only"
 msgstr "Μόνο για ανάγνωση"
 
-#: ../usr/lib/sambashare/sambashare.py:65
+#: ../usr/lib/sambashare/sambashare.py:69
 msgid "Public"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:117
+#: ../usr/lib/sambashare/sambashare.py:121
 msgid "Select directory to share"
 msgstr "Επιλογή καταλόγου για διαμοιρασμό"
 
-#: ../usr/lib/sambashare/sambashare.py:124
+#: ../usr/lib/sambashare/sambashare.py:128
 msgid "Remove share"
 msgstr "Αφαίρεση κοινόχρηστού πόρου"
 
-#: ../usr/lib/sambashare/sambashare.py:125
+#: ../usr/lib/sambashare/sambashare.py:129
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
@@ -67,21 +67,21 @@ msgstr ""
 "\n"
 "'%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:134
+#: ../usr/lib/sambashare/sambashare.py:138
 msgid "Create share"
 msgstr "Δημιουργία κοινόχρηστου πόρου"
 
-#: ../usr/lib/sambashare/sambashare.py:169
+#: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr "Αδυναμία αφαίρεσης τού κοινόχρηστου πόρου: %(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:171
+#: ../usr/lib/sambashare/sambashare.py:175
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr "Αδυναμία δημιουργίας κοινόχρηστου πόρου: %(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:173
+#: ../usr/lib/sambashare/sambashare.py:177
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"

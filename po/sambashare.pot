@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-04 20:27+0100\n"
+"POT-Creation-Date: 2016-01-18 17:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,45 +17,45 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../usr/lib/sambashare/sambashare.py:58
+#: ../usr/lib/sambashare/sambashare.py:62
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/lib/sambashare/sambashare.py:63
 msgid "Create samba share"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:61
+#: ../usr/lib/sambashare/sambashare.py:65
 msgid "Name"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:62
+#: ../usr/lib/sambashare/sambashare.py:66
 msgid "Path"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:63
+#: ../usr/lib/sambashare/sambashare.py:67
 msgid "Comment"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:64
+#: ../usr/lib/sambashare/sambashare.py:68
 msgid "Read only"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:65
+#: ../usr/lib/sambashare/sambashare.py:69
 msgid "Public"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:117
+#: ../usr/lib/sambashare/sambashare.py:121
 msgid "Select directory to share"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:124
+#: ../usr/lib/sambashare/sambashare.py:128
 msgid "Remove share"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:125
+#: ../usr/lib/sambashare/sambashare.py:129
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
@@ -63,21 +63,21 @@ msgid ""
 "'%(share)s'"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:134
+#: ../usr/lib/sambashare/sambashare.py:138
 msgid "Create share"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:169
+#: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:171
+#: ../usr/lib/sambashare/sambashare.py:175
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr ""
 
-#: ../usr/lib/sambashare/sambashare.py:173
+#: ../usr/lib/sambashare/sambashare.py:177
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"

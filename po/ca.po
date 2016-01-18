@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-04 20:27+0100\n"
-"PO-Revision-Date: 2015-10-22 19:41+0000\n"
+"POT-Creation-Date: 2015-12-02 12:46+0100\n"
+"PO-Revision-Date: 2015-11-24 08:57+0000\n"
 "Last-Translator: Eduard Selma <selma@tinet.cat>\n"
 "Language-Team: Catalan (http://www.transifex.com/solydxk/sambashare/language/"
 "ca/)\n"
@@ -19,45 +19,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/sambashare/sambashare.py:58
+#: ../usr/lib/sambashare/sambashare.py:62
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr "Compartició Samba"
 
-#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/lib/sambashare/sambashare.py:63
 msgid "Create samba share"
 msgstr "Crea compartició Samba"
 
-#: ../usr/lib/sambashare/sambashare.py:61
+#: ../usr/lib/sambashare/sambashare.py:65
 msgid "Name"
 msgstr "Nom"
 
-#: ../usr/lib/sambashare/sambashare.py:62
+#: ../usr/lib/sambashare/sambashare.py:66
 msgid "Path"
 msgstr "Camí"
 
-#: ../usr/lib/sambashare/sambashare.py:63
+#: ../usr/lib/sambashare/sambashare.py:67
 msgid "Comment"
 msgstr "Comentari"
 
-#: ../usr/lib/sambashare/sambashare.py:64
+#: ../usr/lib/sambashare/sambashare.py:68
 msgid "Read only"
 msgstr "Només lectura"
 
-#: ../usr/lib/sambashare/sambashare.py:65
+#: ../usr/lib/sambashare/sambashare.py:69
 msgid "Public"
 msgstr "Públic"
 
-#: ../usr/lib/sambashare/sambashare.py:117
+#: ../usr/lib/sambashare/sambashare.py:121
 msgid "Select directory to share"
 msgstr "Trieu el directori a compartir"
 
-#: ../usr/lib/sambashare/sambashare.py:124
+#: ../usr/lib/sambashare/sambashare.py:128
 msgid "Remove share"
 msgstr "Elimina la compartició"
 
-#: ../usr/lib/sambashare/sambashare.py:125
+#: ../usr/lib/sambashare/sambashare.py:129
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
@@ -68,21 +68,21 @@ msgstr ""
 "\n"
 "'%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:134
+#: ../usr/lib/sambashare/sambashare.py:138
 msgid "Create share"
 msgstr "Crea compartició"
 
-#: ../usr/lib/sambashare/sambashare.py:169
+#: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr "No s'ha pogut eliminar la compartició '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:171
+#: ../usr/lib/sambashare/sambashare.py:175
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr "No s'ha pogut crear la compartició: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:173
+#: ../usr/lib/sambashare/sambashare.py:177
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"
@@ -94,13 +94,13 @@ msgstr ""
 "'%(share)s' a %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:85
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cannot create share.\n"
 "Share name %(share)s is already a valid system user name."
 msgstr ""
 "No es pot crear la compartició.\n"
-"La compartició ja hi és: %(share)s"
+"El nom de compartició %(share)s ja és un nom d'usuari vàlid del sistema."
 
 #: ../usr/lib/sambashare/usershare.py:87
 #, python-format
@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../usr/lib/sambashare/usershare.py:113
 msgid "Failed to create new share: {} on {}."
-msgstr ""
+msgstr "Ha fallat en crear la nova compartició: {} a {}."
 
 #: ../usr/lib/sambashare/usershare.py:122
 #, python-format
@@ -140,7 +140,7 @@ msgstr "No teniu prou permisos per al camí: %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:129
 msgid "Failed to remove share: {} from {}."
-msgstr ""
+msgstr "Ha fallat en eliminar la compartició: {} de {}."
 
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2

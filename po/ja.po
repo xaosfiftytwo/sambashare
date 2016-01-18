@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# BALLOON a.k.a. Fu-sen., 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-04 20:27+0100\n"
-"PO-Revision-Date: 2015-10-22 05:34+0000\n"
-"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"POT-Creation-Date: 2015-12-02 12:46+0100\n"
+"PO-Revision-Date: 2015-11-28 02:41+0000\n"
+"Last-Translator: BALLOON a.k.a. Fu-sen.\n"
 "Language-Team: Japanese (http://www.transifex.com/solydxk/sambashare/"
 "language/ja/)\n"
 "Language: ja\n"
@@ -18,45 +19,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../usr/lib/sambashare/sambashare.py:58
+#: ../usr/lib/sambashare/sambashare.py:62
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr "SAMBA 共有"
 
-#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/lib/sambashare/sambashare.py:63
 msgid "Create samba share"
 msgstr "SAMBA 共有 の作成"
 
-#: ../usr/lib/sambashare/sambashare.py:61
+#: ../usr/lib/sambashare/sambashare.py:65
 msgid "Name"
 msgstr "名前"
 
-#: ../usr/lib/sambashare/sambashare.py:62
+#: ../usr/lib/sambashare/sambashare.py:66
 msgid "Path"
 msgstr "パス"
 
-#: ../usr/lib/sambashare/sambashare.py:63
+#: ../usr/lib/sambashare/sambashare.py:67
 msgid "Comment"
 msgstr "コメント"
 
-#: ../usr/lib/sambashare/sambashare.py:64
+#: ../usr/lib/sambashare/sambashare.py:68
 msgid "Read only"
 msgstr "読込のみ"
 
-#: ../usr/lib/sambashare/sambashare.py:65
+#: ../usr/lib/sambashare/sambashare.py:69
 msgid "Public"
-msgstr ""
+msgstr "公開"
 
-#: ../usr/lib/sambashare/sambashare.py:117
+#: ../usr/lib/sambashare/sambashare.py:121
 msgid "Select directory to share"
 msgstr "共有フォルダの選択"
 
-#: ../usr/lib/sambashare/sambashare.py:124
+#: ../usr/lib/sambashare/sambashare.py:128
 msgid "Remove share"
 msgstr "共有の削除"
 
-#: ../usr/lib/sambashare/sambashare.py:125
+#: ../usr/lib/sambashare/sambashare.py:129
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
@@ -67,21 +68,21 @@ msgstr ""
 "\n"
 "'%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:134
+#: ../usr/lib/sambashare/sambashare.py:138
 msgid "Create share"
 msgstr "共有の作成"
 
-#: ../usr/lib/sambashare/sambashare.py:169
+#: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr "共有を削除できませんでした: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:171
+#: ../usr/lib/sambashare/sambashare.py:175
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr "共有を作成できませんでした: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:173
+#: ../usr/lib/sambashare/sambashare.py:177
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"
@@ -93,13 +94,13 @@ msgstr ""
 "'%(share)s' → %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:85
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cannot create share.\n"
 "Share name %(share)s is already a valid system user name."
 msgstr ""
-"共有が作成できませんでした\n"
-"共有はすでに存在します: %(share)s"
+"共有を作成できませんでした。\n"
+"共有名 %(share)s はシステムユーザー名として使用されています。"
 
 #: ../usr/lib/sambashare/usershare.py:87
 #, python-format
@@ -130,7 +131,7 @@ msgstr ""
 
 #: ../usr/lib/sambashare/usershare.py:113
 msgid "Failed to create new share: {} on {}."
-msgstr ""
+msgstr "新たな共有の作成に問題があります: {} on {}"
 
 #: ../usr/lib/sambashare/usershare.py:122
 #, python-format
@@ -139,9 +140,9 @@ msgstr "パスの権限がありません: %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:129
 msgid "Failed to remove share: {} from {}."
-msgstr ""
+msgstr "共有の削除に問題があります: {} を {} から"
 
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2
 msgid "Create samba shares"
-msgstr ""
+msgstr "SAMBA 共有の作成"

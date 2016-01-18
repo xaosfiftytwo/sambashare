@@ -5,6 +5,10 @@
 # http://stackoverflow.com/questions/230845/make-python-enter-password-when-running-a-csh-script
 # http://stackoverflow.com/questions/17959589/sudo-command-in-popen
 
+# Make sure the right Gtk version is loaded
+import gi
+gi.require_version('Gtk', '3.0')
+
 # sudo apt-get install python3-gi
 # from gi.repository import Gtk, GdkPixbuf, GObject, Pango, Gdk
 from gi.repository import Gtk

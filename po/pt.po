@@ -3,20 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Luis Filipe Teixeira <lufilte@gmail.com>, 2015
+# Nuno Duarte <nuno.passiano@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-02 12:46+0100\n"
-"PO-Revision-Date: 2015-10-22 05:34+0000\n"
-"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
-"Language-Team: Turkish (http://www.transifex.com/solydxk/sambashare/language/"
-"tr/)\n"
-"Language: tr\n"
+"POT-Creation-Date: 2015-12-11 09:44+0100\n"
+"PO-Revision-Date: 2015-12-09 18:15+0000\n"
+"Last-Translator: Luis Filipe Teixeira <lufilte@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/solydxk/sambashare/"
+"language/pt/)\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../usr/lib/sambashare/sambashare.py:62
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
@@ -26,35 +28,35 @@ msgstr "Samba share"
 
 #: ../usr/lib/sambashare/sambashare.py:63
 msgid "Create samba share"
-msgstr "Samba share oluştur"
+msgstr "Criar partilha no samba"
 
 #: ../usr/lib/sambashare/sambashare.py:65
 msgid "Name"
-msgstr "İsim"
+msgstr "Nome"
 
 #: ../usr/lib/sambashare/sambashare.py:66
 msgid "Path"
-msgstr "Yol"
+msgstr "Caminho"
 
 #: ../usr/lib/sambashare/sambashare.py:67
 msgid "Comment"
-msgstr "Yorum"
+msgstr "Comente"
 
 #: ../usr/lib/sambashare/sambashare.py:68
 msgid "Read only"
-msgstr "Salt-okunur"
+msgstr "Somente leitura"
 
 #: ../usr/lib/sambashare/sambashare.py:69
 msgid "Public"
-msgstr ""
+msgstr "Público"
 
 #: ../usr/lib/sambashare/sambashare.py:121
 msgid "Select directory to share"
-msgstr "Paylaşmak için dizin seçin"
+msgstr "Selecionar o diretório a compartilhar"
 
 #: ../usr/lib/sambashare/sambashare.py:128
 msgid "Remove share"
-msgstr "Paylaşımı kaldır"
+msgstr "Remover partilha"
 
 #: ../usr/lib/sambashare/sambashare.py:129
 #, python-format
@@ -63,23 +65,23 @@ msgid ""
 "\n"
 "'%(share)s'"
 msgstr ""
-"Bu paylaşımı kaldırmak istediğinize emin misiniz:\n"
+"Tem certeza de que deseja remover a seguinte partilha:\n"
 "\n"
 "'%(share)s'"
 
 #: ../usr/lib/sambashare/sambashare.py:138
 msgid "Create share"
-msgstr "Paylaşım oluştur"
+msgstr "Criar partilha"
 
 #: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid "Could not remove share: '%(share)s'"
-msgstr "Paylaşım kaldırılamadı: '%(share)s'"
+msgstr "Não foi possível remover partilha: '%(share)s'"
 
 #: ../usr/lib/sambashare/sambashare.py:175
 #, python-format
 msgid "Could not create share: '%(share)s'"
-msgstr "Paylaşım oluşturulamadı: '%(share)s'"
+msgstr "Não foi possível criar partilha: '%(share)s'"
 
 #: ../usr/lib/sambashare/sambashare.py:177
 #, python-format
@@ -88,18 +90,18 @@ msgid ""
 "\n"
 "'%(share)s' on %(path)s"
 msgstr ""
-"Paylaşım başarıyla %(action)s:\n"
+"Compartilhar com sucesso %(action)s:\n"
 "\n"
-"%(path)s üzerinde '%(share)s' "
+"'%(share)s' on %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:85
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cannot create share.\n"
 "Share name %(share)s is already a valid system user name."
 msgstr ""
-"Paylaşım oluşturulamadı.\n"
-"Paylaşım zaten mevcut: %(share)s"
+"Não é possível criar partilha.\n"
+"Nome de partilha %(share)s já é um nome de usuário do sistema válido."
 
 #: ../usr/lib/sambashare/usershare.py:87
 #, python-format
@@ -107,8 +109,8 @@ msgid ""
 "Cannot create share.\n"
 "Share already exists: %(share)s"
 msgstr ""
-"Paylaşım oluşturulamadı.\n"
-"Paylaşım zaten mevcut: %(share)s"
+"Não é possível criar partilha.\n"
+"Partilha já existe: %(share)s"
 
 #: ../usr/lib/sambashare/usershare.py:89
 #, python-format
@@ -116,8 +118,8 @@ msgid ""
 "Cannot create share.\n"
 "Path does not exist: %(path)s"
 msgstr ""
-"Paylaşım oluşturulamadı.\n"
-"Dizin bulunamadı: %(path)s"
+"Não é possível criar partilha.\n"
+"O caminho não existe: %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:101
 #, python-format
@@ -125,23 +127,23 @@ msgid ""
 "You do not have sufficient permission to create a share on:\n"
 "%(path)s"
 msgstr ""
-"Bu dizinde paylaşım oluşturabilmek için yeterli izinlere sahip değilsiniz:\n"
+"Você não tem permissão suficiente para criar uma partilha em:\n"
 "%(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:113
 msgid "Failed to create new share: {} on {}."
-msgstr ""
+msgstr "Falha ao criar nova partilha: {} on {}."
 
 #: ../usr/lib/sambashare/usershare.py:122
 #, python-format
 msgid "You do not have sufficient permission on path: %(path)s"
-msgstr "Bu dizinde yeterli izinlere sahip değilsiniz: %(path)s"
+msgstr "Você não tem permissão suficiente no caminho: %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:129
 msgid "Failed to remove share: {} from {}."
-msgstr ""
+msgstr "Falha ao remover partilha: {} from {}."
 
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2
 msgid "Create samba shares"
-msgstr ""
+msgstr "Criar partilhas do samba"

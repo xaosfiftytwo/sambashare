@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-04 20:27+0100\n"
-"PO-Revision-Date: 2015-10-22 05:34+0000\n"
+"POT-Creation-Date: 2015-12-02 12:46+0100\n"
+"PO-Revision-Date: 2015-11-05 08:48+0000\n"
 "Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
 "Language-Team: Northern Sami (http://www.transifex.com/solydxk/sambashare/"
 "language/se/)\n"
@@ -18,45 +18,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/sambashare/sambashare.py:58
+#: ../usr/lib/sambashare/sambashare.py:62
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr "Samba-utdelning"
 
-#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/lib/sambashare/sambashare.py:63
 msgid "Create samba share"
 msgstr "Skapa en samba-utdelning"
 
-#: ../usr/lib/sambashare/sambashare.py:61
+#: ../usr/lib/sambashare/sambashare.py:65
 msgid "Name"
 msgstr "Namn"
 
-#: ../usr/lib/sambashare/sambashare.py:62
+#: ../usr/lib/sambashare/sambashare.py:66
 msgid "Path"
 msgstr "Sökväg"
 
-#: ../usr/lib/sambashare/sambashare.py:63
+#: ../usr/lib/sambashare/sambashare.py:67
 msgid "Comment"
 msgstr "Kommentar"
 
-#: ../usr/lib/sambashare/sambashare.py:64
+#: ../usr/lib/sambashare/sambashare.py:68
 msgid "Read only"
 msgstr "Läsrättigheter"
 
-#: ../usr/lib/sambashare/sambashare.py:65
+#: ../usr/lib/sambashare/sambashare.py:69
 msgid "Public"
 msgstr "Publik"
 
-#: ../usr/lib/sambashare/sambashare.py:117
+#: ../usr/lib/sambashare/sambashare.py:121
 msgid "Select directory to share"
 msgstr "Välj katalog för utdelning"
 
-#: ../usr/lib/sambashare/sambashare.py:124
+#: ../usr/lib/sambashare/sambashare.py:128
 msgid "Remove share"
 msgstr "Ta bort utdelning"
 
-#: ../usr/lib/sambashare/sambashare.py:125
+#: ../usr/lib/sambashare/sambashare.py:129
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
@@ -67,21 +67,21 @@ msgstr ""
 "\n"
 "'%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:134
+#: ../usr/lib/sambashare/sambashare.py:138
 msgid "Create share"
 msgstr "Skapa utdelning"
 
-#: ../usr/lib/sambashare/sambashare.py:169
+#: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr "Kunde inte ta bort utdelning: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:171
+#: ../usr/lib/sambashare/sambashare.py:175
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr "kunde inte skapa utdelning: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:173
+#: ../usr/lib/sambashare/sambashare.py:177
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"
@@ -93,13 +93,11 @@ msgstr ""
 "'%(share)s' på %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:85
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cannot create share.\n"
 "Share name %(share)s is already a valid system user name."
 msgstr ""
-"Kan inte skapa utdelning.\n"
-"Utdelningen finns redan: %(share)s"
 
 #: ../usr/lib/sambashare/usershare.py:87
 #, python-format

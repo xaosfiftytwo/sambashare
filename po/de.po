@@ -4,13 +4,14 @@
 #
 # Translators:
 # ilu lu, 2015
+# ilu lu, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: sambashare\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-11-04 20:27+0100\n"
-"PO-Revision-Date: 2015-10-22 05:34+0000\n"
-"Last-Translator: Arjen Balfoort <schoelje@solydxk.com>\n"
+"POT-Creation-Date: 2015-12-07 10:58+0100\n"
+"PO-Revision-Date: 2015-12-07 05:57+0000\n"
+"Last-Translator: ilu lu\n"
 "Language-Team: German (http://www.transifex.com/solydxk/sambashare/language/"
 "de/)\n"
 "Language: de\n"
@@ -19,70 +20,70 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../usr/lib/sambashare/sambashare.py:58
+#: ../usr/lib/sambashare/sambashare.py:62
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:1
 #: ../usr/share/applications/sambashare.desktop.in.h:1
 msgid "Samba share"
 msgstr "Samba Freigabe"
 
-#: ../usr/lib/sambashare/sambashare.py:59
+#: ../usr/lib/sambashare/sambashare.py:63
 msgid "Create samba share"
 msgstr "Erstelle Samba Freigabe"
 
-#: ../usr/lib/sambashare/sambashare.py:61
+#: ../usr/lib/sambashare/sambashare.py:65
 msgid "Name"
 msgstr "Name"
 
-#: ../usr/lib/sambashare/sambashare.py:62
+#: ../usr/lib/sambashare/sambashare.py:66
 msgid "Path"
 msgstr "Pfad"
 
-#: ../usr/lib/sambashare/sambashare.py:63
+#: ../usr/lib/sambashare/sambashare.py:67
 msgid "Comment"
 msgstr "Kommentar"
 
-#: ../usr/lib/sambashare/sambashare.py:64
+#: ../usr/lib/sambashare/sambashare.py:68
 msgid "Read only"
 msgstr "Nur lesen"
 
-#: ../usr/lib/sambashare/sambashare.py:65
+#: ../usr/lib/sambashare/sambashare.py:69
 msgid "Public"
 msgstr "Öffentlich"
 
-#: ../usr/lib/sambashare/sambashare.py:117
+#: ../usr/lib/sambashare/sambashare.py:121
 msgid "Select directory to share"
 msgstr "Wähle freizugebendes Verzeichnis"
 
-#: ../usr/lib/sambashare/sambashare.py:124
+#: ../usr/lib/sambashare/sambashare.py:128
 msgid "Remove share"
 msgstr "Lösche Freigabe"
 
-#: ../usr/lib/sambashare/sambashare.py:125
+#: ../usr/lib/sambashare/sambashare.py:129
 #, python-format
 msgid ""
 "Are you sure you want to remove the following share:\n"
 "\n"
 "'%(share)s'"
 msgstr ""
-"Bist du sicher, dass du die folgende Freigabe entfernen möchtest:\n"
+"Sind sie sicher, dass Sie die folgende Freigabe entfernen möchten:\n"
 "\n"
 "'%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:134
+#: ../usr/lib/sambashare/sambashare.py:138
 msgid "Create share"
 msgstr "Erstelle Freigabe"
 
-#: ../usr/lib/sambashare/sambashare.py:169
+#: ../usr/lib/sambashare/sambashare.py:173
 #, python-format
 msgid "Could not remove share: '%(share)s'"
 msgstr "Freigabe konnte nicht entfernt werden: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:171
+#: ../usr/lib/sambashare/sambashare.py:175
 #, python-format
 msgid "Could not create share: '%(share)s'"
 msgstr "Freigabe konnte nicht erstellt werden: '%(share)s'"
 
-#: ../usr/lib/sambashare/sambashare.py:173
+#: ../usr/lib/sambashare/sambashare.py:177
 #, python-format
 msgid ""
 "Share successfully %(action)s:\n"
@@ -94,13 +95,14 @@ msgstr ""
 "'%(share)s' in %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:85
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cannot create share.\n"
 "Share name %(share)s is already a valid system user name."
 msgstr ""
-"Freigabe kann nicht erstellt werden.\n"
-"Freigabe existiert bereits: %(share)s"
+"Freigabe kann nicht erstellt werden\n"
+"Der Name der Freigabe %(share)s existiert bereits als gültiger "
+"Systembenutzername"
 
 #: ../usr/lib/sambashare/usershare.py:87
 #, python-format
@@ -132,16 +134,16 @@ msgstr ""
 
 #: ../usr/lib/sambashare/usershare.py:113
 msgid "Failed to create new share: {} on {}."
-msgstr ""
+msgstr "Eine neue Freigabe konnte nicht erstellt werden: {} auf {}."
 
 #: ../usr/lib/sambashare/usershare.py:122
 #, python-format
 msgid "You do not have sufficient permission on path: %(path)s"
-msgstr "Du hast keine ausreichenden Berechtigungen im Pfad: %(path)s"
+msgstr "Sie haben keine ausreichenden Berechtigungen im Pfad: %(path)s"
 
 #: ../usr/lib/sambashare/usershare.py:129
 msgid "Failed to remove share: {} from {}."
-msgstr ""
+msgstr "Eine Freigabe konnte nicht entfernt werden {} von {}."
 
 #: ../usr/share/kde4/services/kcm_sambashare.desktop.in.h:2
 #: ../usr/share/applications/sambashare.desktop.in.h:2
